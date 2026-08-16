@@ -2,6 +2,9 @@
 
 Open-source, end-to-end research toolchain for DAO/Web3 governance — from raw governance data to research-ready panel data and causal inference (DID / PSM-DID) with one-click export.
 
+<img width="1536" height="1024" alt="ChatGPT Image Aug 16, 2026, 06_53_01 PM" src="https://github.com/user-attachments/assets/24240310-0c75-46d7-ba02-058767e6a36c" />
+
+
 ## Features
 
 - **Multi-source collection**: Snapshot / Tally GraphQL, EVM RPC, Steemit
@@ -9,6 +12,8 @@ Open-source, end-to-end research toolchain for DAO/Web3 governance — from raw 
 - **Causal inference templates**: DID, PSM-DID, placebo tests (in-time / in-space), event study
 - **Panel data export**: Parquet / CSV + paper-quality charts
 - **Reproduction library**: JOM 2025 Steemit study reproduction (v2)
+
+
 
 ## Installation
 
