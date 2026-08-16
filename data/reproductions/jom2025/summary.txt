@@ -1,0 +1,6 @@
+JOM 2025 reproduction (governance token vs. tradeable token incentives)
+-----------------------------------------------------------------------
+ATT on creation: 1.977877 (p=0.0000)
+Matched sample: 3332 rows
+Event study: 8 relative periods, pre-trends p-value 0.0000
+In-space placebo: mean pseudo-ATT 0.007985, empirical p-value 0.0000 (passed=False)

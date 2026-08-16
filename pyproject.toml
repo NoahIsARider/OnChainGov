@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onchaingov"
+version = "0.1.0"
+description = "On-chain governance research toolchain: from raw governance data to research-ready panel data and causal inference"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "OnChainGov Contributors" }]
+keywords = ["dao", "governance", "causal-inference", "did", "psm", "cryptocurrency"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "polars>=0.20",
+    "web3>=6.0",
+    "gql>=3.4",
+    "httpx>=0.24",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "linearmodels>=5.0",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+    "jupyter",
+]
+dashboard = [
+    "streamlit>=1.28",
+]
+
+[project.scripts]
+onchaingov = "onchaingov.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+onchaingov = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff.lint]
+# Naive UTC is the project-wide data convention (all schemas, panels and
+# collectors emit naive UTC datetimes), so timezone-constructor rules are
+# intentionally not enforced.
+ignore = ["DTZ001", "DTZ003", "DTZ005"]

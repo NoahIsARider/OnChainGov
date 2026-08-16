@@ -1,0 +1,104 @@
+{
+  "name": "Demo DAO governance dataset",
+  "description": "Research-ready DAO governance panel dataset assembled by OnChainGov.",
+  "version": "0.1.0",
+  "generated_at": "2026-08-16T05:50:31Z",
+  "toolchain": {
+    "name": "onchagov",
+    "version": "0.1.0",
+    "commit": "1fda966",
+    "schema_version": 1
+  },
+  "contents": {
+    "raw": [
+      {
+        "name": "snapshot_space_a.parquet",
+        "bytes": 3969,
+        "rows": 128
+      }
+    ],
+    "indicators": [
+      {
+        "name": "snapshot_space_a_participation.parquet",
+        "bytes": 2539,
+        "rows": 1
+      }
+    ],
+    "panels": [
+      {
+        "name": "panel.parquet",
+        "bytes": 1358,
+        "rows": 120
+      },
+      {
+        "name": "panel_treated.parquet",
+        "bytes": 2030,
+        "rows": 120
+      }
+    ],
+    "reproductions": [
+      {
+        "name": "jom2025/matched_panel.parquet",
+        "bytes": 109441,
+        "rows": 3332
+      },
+      {
+        "name": "jom2025/propensity_scores.parquet",
+        "bytes": 9191,
+        "rows": 300
+      },
+      {
+        "name": "jom2025/reproduction_panel.parquet",
+        "bytes": 136586,
+        "rows": 4200
+      },
+      {
+        "name": "jom2025/synthetic_panel.parquet",
+        "bytes": 136586,
+        "rows": 4200
+      }
+    ]
+  },
+  "files": {
+    "raw": [
+      {
+        "name": "snapshot_space_a.parquet",
+        "sha256": "68c095a48e4c54f46c791f2de6259b94e75e58e476e16c12c281b2fe2a8044d8"
+      }
+    ],
+    "indicators": [
+      {
+        "name": "snapshot_space_a_participation.parquet",
+        "sha256": "257077a0f55913508eb46c59278cc514c0a0cf6736386dec5cd5a120f94c1319"
+      }
+    ],
+    "panels": [
+      {
+        "name": "panel.parquet",
+        "sha256": "097625b2039e19690e3342529b34367ae551651f75ba85ca3c33011dbf5bb8e8"
+      },
+      {
+        "name": "panel_treated.parquet",
+        "sha256": "97c6ca2a5f20fb39173c3b84c7dfef923506ec878ec7db455de908631d3de75b"
+      }
+    ],
+    "reproductions": [
+      {
+        "name": "jom2025/matched_panel.parquet",
+        "sha256": "78ecfa5a062ca11bdfaa92a656e9657f81e1dec7bf13547ffb286299467179d9"
+      },
+      {
+        "name": "jom2025/propensity_scores.parquet",
+        "sha256": "3d33e572e259405fd0d8ad283dd3f8ffe403815cfd21829016f674fb7bda216e"
+      },
+      {
+        "name": "jom2025/reproduction_panel.parquet",
+        "sha256": "beaf863c39d8a03d72cc0d4a28075bacf72620408726ff103732327b688d025a"
+      },
+      {
+        "name": "jom2025/synthetic_panel.parquet",
+        "sha256": "beaf863c39d8a03d72cc0d4a28075bacf72620408726ff103732327b688d025a"
+      }
+    ]
+  }
+}
