@@ -2,11 +2,11 @@
   "name": "Demo DAO governance dataset",
   "description": "Research-ready DAO governance panel dataset assembled by OnChainGov.",
   "version": "0.1.0",
-  "generated_at": "2026-08-16T05:50:31Z",
+  "generated_at": "2026-08-16T06:22:02Z",
   "toolchain": {
-    "name": "onchagov",
+    "name": "onchaingov",
     "version": "0.1.0",
-    "commit": "1fda966",
+    "commit": "ace26bf",
     "schema_version": 1
   },
   "contents": {
@@ -14,6 +14,7 @@
       {
         "name": "snapshot_space_a.parquet",
         "bytes": 3969,
+        "format": "parquet",
         "rows": 128
       }
     ],
@@ -21,6 +22,7 @@
       {
         "name": "snapshot_space_a_participation.parquet",
         "bytes": 2539,
+        "format": "parquet",
         "rows": 1
       }
     ],
@@ -28,11 +30,13 @@
       {
         "name": "panel.parquet",
         "bytes": 1358,
+        "format": "parquet",
         "rows": 120
       },
       {
         "name": "panel_treated.parquet",
         "bytes": 2030,
+        "format": "parquet",
         "rows": 120
       }
     ],
@@ -40,21 +44,25 @@
       {
         "name": "jom2025/matched_panel.parquet",
         "bytes": 109441,
+        "format": "parquet",
         "rows": 3332
       },
       {
         "name": "jom2025/propensity_scores.parquet",
         "bytes": 9191,
+        "format": "parquet",
         "rows": 300
       },
       {
         "name": "jom2025/reproduction_panel.parquet",
         "bytes": 136586,
+        "format": "parquet",
         "rows": 4200
       },
       {
         "name": "jom2025/synthetic_panel.parquet",
         "bytes": 136586,
+        "format": "parquet",
         "rows": 4200
       }
     ]

@@ -5,8 +5,8 @@ Research-ready DAO governance panel dataset assembled by OnChainGov.
 ## Metadata
 
 - Version: 0.1.0
-- Generated: 2026-08-16T05:50:31Z
-- Toolchain: onchaingov 0.1.0 (commit 1fda966)
+- Generated: 2026-08-16T06:22:02Z
+- Toolchain: onchaingov 0.1.0 (commit ace26bf)
 
 ## Contents
 
@@ -40,7 +40,7 @@ Research-ready DAO governance panel dataset assembled by OnChainGov.
 
 ## Reproducibility
 
-This dataset was produced by OnChainGov (https://github.com/onchaingov/onchaingov). Re-run the pipeline with:
+This dataset was produced by OnChainGov (https://github.com/NoahIsARider/OnChainGov). Re-run the pipeline with:
 
 ```bash
 onchaingov collect ...   # collect raw events
