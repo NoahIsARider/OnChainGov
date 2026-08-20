@@ -1,0 +1,18 @@
+{
+  "ens.eth": {
+    "participation_level": "high",
+    "concentration_level": "medium",
+    "hhi": 0.11203135058311668,
+    "gini": 0.8969383705511818,
+    "top10_share": 0.8365040894404515,
+    "top1_share": 0.28277140574263826
+  },
+  "ens.eth_lowpart": {
+    "participation_level": "medium",
+    "concentration_level": "medium",
+    "hhi": 0.15599791426935128,
+    "gini": 0.8448293805445102,
+    "top10_share": 0.7357209694499232,
+    "top1_share": 0.2032133568809481
+  }
+}
